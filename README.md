@@ -13,7 +13,7 @@ You can run the program with:
 
 reasasoner > start reasoner
 
-# How it's works #
+# Classes & How it's works #
 
 In the ontology, there are five main classes which are; VehicleDataBase, Service, Spots, VehicleSize, VehicleType. 
 
@@ -27,16 +27,16 @@ VehicleType has three subclasses and represents the energy type of the vehicle i
 
 Service has two subclasses; Discount and WaterWindshildWiper. The purpose is to provide %10 percent discount for registered vehicles and free windshield water filling for electric vehicles. 
 
-Spots have two subclasses; SpotState and SpotType. SpotState has information about the availability of the spots to navigate the driver to the available one to provide a time consumption. SpotType is a data base about the spots, spot numbers 1-2-3-4 are electric spots, spot numbers 5-6-7-8 are gasoline spots and spot numbers 9-10-11-12 are electric spots. By the spot type, the driver can not take the wrong fuel type to their vehicle. 
+Spots have two subclasses; SpotState and SpotType. SpotState has information about the availability of the spots to navigate the driver to the available one to provide a time consumption. SpotType is a database about the spots, spot numbers 1-2-3-4 are electric spots, spot numbers 5-6-7-8 are gasoline spots and spot numbers 9-10-11-12 are electric spots. By the spot type, the driver can not take the wrong fuel type to their vehicle. 
+
+# Data Properties #
+
+The system has four data properties; afterDiscount which is for discounted price for registered vehicles, beforeDiscount which is for a not discounted price for registered vehicles, hasToFill which is about how much energy wants to user purchase, hasToPay which is for the price for the unregistered vehicles. 
+
+# Object Properties #
+
+The system has five object properties; HasService represents which services has the vehicle, HasSize is about the size of the car to determine the storage capacity, HasToGo for navigating the vehicle to the proper energy spot, HasTypes defines the energy type of the vehicle. 
 
 
-
-
-
-
-
-# Flow Chart #
-
-<img width="635" alt="Screen Shot 2023-01-25 at 22 54 18" src="https://user-images.githubusercontent.com/83571132/214700418-0dc0bb39-3a97-4036-9688-9e03311a72ac.png">
 
 
