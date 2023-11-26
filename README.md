@@ -13,6 +13,8 @@ You can run the program with:
 
 reasasoner > start reasoner
 
+Then check the VehicleDataBase individuals from individuals by class and visualize the vehicles how much energy they will take, what kind of services they have and how much money they need to pay.
+
 # Classes & How it's works #
 
 In the ontology, there are five main classes which are; VehicleDataBase, Service, Spots, VehicleSize, VehicleType. 
